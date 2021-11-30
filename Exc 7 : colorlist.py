@@ -1,0 +1,10 @@
+ colorlist1 = input("Enter the first list of colors : ")
+colorlist2 = input("Enter the second list of colors : ")
+colorlist1 = set(colorlist1.split(" "))
+print(colorlist1)
+colorlist2 = set(colorlist2.split(" "))
+print(colorlist2)
+colorlist3 = set()
+colorlist3 = colorlist1.difference(colorlist2)
+print(colorlist3)
+
